@@ -1,0 +1,15 @@
+TECHNICAL SERVICE MANUAL: DEFECT CODE 003 - MOUSEBITE
+===========================================================
+SECTION 1.0: DEFINITION & SPECIFICATIONS
+A "Mousebite" (YOLO Class 2) refers to a semi-circular chunk or bite missing from the edge of a conductive trace. While not causing a complete open, it restricts current flow, creating hot-spots and reliability failures.
+
+SECTION 2.0: CORE ROOT CAUSES
+1. Photoresist Air Bubbles: Micro-bubbles trapped in the liquid photoresist layer during spin-coating leave localized spots unshielded during UV exposure.
+2. Nitrogen Nozzle Pressure: High nitrogen blow pressure during cleanroom drying stages tearing off partially developed photoresist edges.
+3. Mechanical Edge Abrasions: Robotic handlers gripping substrates too tightly, creating microscopic localized stress fractures.
+
+SECTION 3.0: TROUBLESHOOTING & CORRECTION PROCEDURES
+If the inspection system flags high rates of Mousebites:
+- STEP 1: Inspect the photoresist spin-coater dispense nozzle. Clean nozzle tip to prevent cavitation and bubble creation during dispensing.
+- STEP 2: Decrease nitrogen drying nozzle pressure from 3.2 bar to 2.8 bar.
+- STEP 3: Perform load-cell calibration on Handler Grids A and B. Grip force must not exceed 1.2 Newtons.

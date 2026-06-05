@@ -1,0 +1,18 @@
+TECHNICAL SERVICE MANUAL: DEFECT CODE 002 - SHORT CIRCUIT
+==============================================================
+SECTION 1.0: DEFINITION & SPECIFICATIONS
+A "Short Circuit" (YOLO Class 1) refers to an unintended electrical connection (bridge) between two adjacent conductive traces.
+Custom inspection parameters mandate trace isolation checks.
+
+SECTION 2.0: CORE ROOT CAUSES
+Short circuits are highly correlated with process failures in the etching and deposition stages:
+1. Under-etching: Insufficient chemical concentration or low etching bath temperatures leave copper residues that bridge adjacent traces.
+2. Solder Mask Alignment Error: Photomask shifting during mask application exposes trace gaps, allowing solder or copper plating to bridge.
+3. Sputtering Overspray: Metallic sputtering deposition bleeding due to loose physical mask clamp fittings.
+
+SECTION 3.0: TROUBLESHOOTING & CORRECTION PROCEDURES
+If the inspection system flags high rates of Short Circuits:
+- STEP 1: Measure acid concentration in the primary etching tank. Replenish etchant chemicals if concentration drops below 95% threshold.
+- STEP 2: Verify the etching bath heater core. Temperature must remain stable at exactly 48.5°C (+/- 0.5°C).
+- STEP 3: Recalibrate the mask aligner visual feedback cameras. Perform a X-Y mechanical recalibration of the alignment stage.
+- STEP 4: Tighten the physical substrate clamps in sputtering chamber B.

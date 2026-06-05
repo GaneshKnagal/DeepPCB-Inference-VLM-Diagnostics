@@ -1,0 +1,18 @@
+TECHNICAL SERVICE MANUAL: DEFECT CODE 001 - OPEN CIRCUIT
+==============================================================
+SECTION 1.0: DEFINITION & SPECIFICATIONS
+An "Open Circuit" (YOLO Class 0) refers to a complete break or discontinuity in a conductive trace on a printed circuit board (PCB) or wafer interconnect. 
+Custom inspection parameters mandate trace verification of 100% path continuity.
+
+SECTION 2.0: CORE ROOT CAUSES
+Based on field engineering records, open circuits are primarily caused by:
+1. Over-etching: The board or wafer remains in the acid/etching bath too long, completely stripping thin copper traces.
+2. Photolithography Mask Dust: A dust particle on the exposure mask blocks UV light, preventing the photoresist from hardening at that point.
+3. Physical Scratches: Robot handler arms scratching the copper layer before deposition or etching.
+
+SECTION 3.0: TROUBLESHOOTING & CORRECTION PROCEDURES
+If the inspection system flags high rates of Open Circuits:
+- STEP 1: Verify the Etch-Bath Timing. If timing deviates by >1.5%, recalibrate the automated timer.
+- STEP 2: Inspect cleanroom Class-100 filters in the photolithography bay. High particle counts directly correlate with mask-level dust defects.
+- STEP 3: Clean the UV projection lenses with cleanroom optical swabs and isopropyl alcohol.
+- STEP 4: Inspect Handler Spatula #3. If rubber pads are worn down to metal, replace immediately to prevent physical scratch opens.

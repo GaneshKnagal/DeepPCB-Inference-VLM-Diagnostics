@@ -1,0 +1,14 @@
+TECHNICAL SERVICE MANUAL: DEFECT CODE 006 - PIN-HOLE
+=========================================================
+SECTION 1.0: DEFINITION & SPECIFICATIONS
+A "Pin-hole" (YOLO Class 5) is a microscopic void or missing circle inside a conductive trace or dielectric isolation layer.
+
+SECTION 2.0: CORE ROOT CAUSES
+1. Chemical Vapor Deposition (CVD) Cavities: Outgassing of volatile compounds from the substrate during high-vacuum CVD processes, leaving micro-voids.
+2. Micro-bubbles in Plating baths: Hydrogen bubbles clinging to the substrate surface during electroplating, blocking copper deposition.
+
+SECTION 3.0: TROUBLESHOOTING & CORRECTION PROCEDURES
+If the inspection system flags high rates of Pin-holes:
+- STEP 1: Check the vacuum pre-bake duration. Increase vacuum chamber pre-bake at 120°C from 10 minutes to 15 minutes to ensure full outgassing.
+- STEP 2: Inspect electroplating bath surfactant concentration. Add anti-foaming agent or surfactant to reduce surface tension, allowing hydrogen bubbles to detach.
+- STEP 3: Increase cathode agitation vibration rates in the electroplating bath.

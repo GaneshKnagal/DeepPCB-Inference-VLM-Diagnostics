@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary processing directories
+temp_crops/
+
+# Vector database cache (auto-generated on app launch)
+chroma_db/
+
+# Large Datasets (Raw & Preprocessed)
+DeepPCB_raw/
+dataset/
+
+# Root level model checkpoints
+yolo26n.pt
+yolov8s.pt
+*.onnx
+*.engine
+
+# Temp images
+augmented_sample.jpg
+
+# Ignore all YOLO training logs and checkpoints except final model weights
+runs/
+!runs/detect/
+!runs/detect/pcb_inspection/
+!runs/detect/pcb_inspection/yolov8s_deeppcb/
+!runs/detect/pcb_inspection/yolov8s_deeppcb/weights/
+!runs/detect/pcb_inspection/yolov8s_deeppcb/weights/best.pt

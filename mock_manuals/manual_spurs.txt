@@ -1,0 +1,15 @@
+TECHNICAL SERVICE MANUAL: DEFECT CODE 004 - SPUR
+=====================================================
+SECTION 1.0: DEFINITION & SPECIFICATIONS
+A "Spur" (YOLO Class 3) is a localized trace protrusion extending from a conductive line towards an adjacent line, significantly narrowing the spacing gap.
+
+SECTION 2.0: CORE ROOT CAUSES
+Spur formation is usually chemical or optical:
+1. Localized Under-Etching: Inadequate chemical agitation causes stagnant chemical layers, leaving copper un-etched at the base of traces.
+2. Photoresist Adhesion failure: Incomplete peeling of photoresist margins due to suboptimal soft-bake temperatures.
+
+SECTION 3.0: TROUBLESHOOTING & CORRECTION PROCEDURES
+If the inspection system flags high rates of Spurs:
+- STEP 1: Increase the etchant spray nozzle pressure by 10% to improve local fluid dynamics and chemical agitation.
+- STEP 2: Verify soft-bake oven temperature profiling. Ensure pre-exposure soft-bake reaches exactly 95°C for 60 seconds.
+- STEP 3: Increase stripping chemical wash duration by 15 seconds.

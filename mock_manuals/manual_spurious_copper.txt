@@ -1,0 +1,14 @@
+TECHNICAL SERVICE MANUAL: DEFECT CODE 005 - SPURIOUS COPPER
+================================================================
+SECTION 1.0: DEFINITION & SPECIFICATIONS
+"Spurious Copper" (YOLO Class 4) refers to isolated, non-functional islands of copper remaining on the non-conductive substrate material, completely detached from any valid traces.
+
+SECTION 2.0: CORE ROOT CAUSES
+1. Rinsing Contamination: Saturated rinse water containing dissolved copper re-depositing metallic copper particles during the post-etch wash.
+2. Substrate Lamination Defects: Micro-cracks in the raw substrate fiberglass/dielectric capturing copper molecules that resist standard etching.
+
+SECTION 3.0: TROUBLESHOOTING & CORRECTION PROCEDURES
+If the inspection system flags high rates of Spurious Copper:
+- STEP 1: Test water resistivity in the post-etch rinse tank. If resistivity drops below 18 Megohm-cm, replace the deionized (DI) water filters immediately.
+- STEP 2: Check DI water circulation flow rates. Increase flow from 5L/min to 8L/min.
+- STEP 3: Audit raw laminate substrate suppliers for surface roughness and micro-crack defects under SEM.
