@@ -121,24 +121,5 @@ docker run -p 8501:8501 --env-file .env --device=/dev/video0:/dev/video0 deeppcb
 
 ---
 
-## ☁️ Cloud Deployment & Live Demo Setup
-
-You can easily host this dashboard live (e.g., on **Hugging Face Spaces** or **Streamlit Community Cloud**) to showcase it to recruiters.
-
-### 🔑 1. Configure Secret Environment Variables
-Cloud hosting servers do not read your local `.env` file. You must set your API Key as a secure secret:
-* **Hugging Face Spaces**: Go to **Settings** > **Variables and Secrets** > **New Secret**.
-  * Add: `GEMINI_API_KEY` = `your_actual_api_key`
-* **Streamlit Community Cloud**: Go to **App Settings** > **Secrets** and add:
-  ```toml
-  GEMINI_API_KEY = "your_actual_api_key"
-  ```
-
-### 📷 2. Live Demo Usage for Cloud Users
-* **Camera Capture Limit**: Since cloud deployment environments run on remote servers, they cannot access the user's local USB/MIPI webcams (`/dev/video0`). 
-* **Interactive testing**: Cloud visitors should select the **"Sample Validation Images"** option in the sidebar (which lists the pre-packaged substrate samples in the `samples/` directory) or use **"Upload Custom File"** to inspect trace files.
-
----
-
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
